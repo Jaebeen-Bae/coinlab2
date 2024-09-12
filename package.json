@@ -1,5 +1,5 @@
 {
-  "name": "coin",
+  "name": "coinlab",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,7 +9,6 @@
     "@types/jest": "^27.5.2",
     "@types/react-window": "^1.8.7",
     "axios": "^1.5.1",
-    "firebase": "^10.5.0",
     "lightweight-charts": "^4.1.0",
     "lodash": "^4.17.21",
     "lottie-react": "^2.4.0",
@@ -36,7 +35,6 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://kimpro.site/",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -69,7 +67,6 @@
     "customize-cra": "^1.0.0",
     "eslint": "^8.51.0",
     "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-prettier": "^5.0.0",
     "gh-pages": "^6.0.0",
     "prettier": "^3.0.3",
     "react-app-rewired": "^2.2.1",

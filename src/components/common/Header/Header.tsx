@@ -7,9 +7,7 @@ import { exchangeRateState } from 'recoil/atoms/exchangeAtoms';
 import { useTheme } from 'hooks';
 import { ExchangeRateDisplay } from './ExchangeRateDisplay';
 import { GlobalCoinLabel } from './GlobalCoinLabel';
-
-import LogoDark from 'assets/images/Logo-Dark.svg';
-import LogoLight from 'assets/images/Logo-Light.svg';
+import Coinlab from 'assets/images/Coinlab.png';
 
 function Header() {
   const { theme, onChangeTheme } = useTheme();
@@ -69,7 +67,7 @@ function Header() {
         <styled.InnerSpaceBetween>
           <styled.Logo to="/">
             <styled.LogoImg
-              src={isDarkMode ? LogoDark : LogoLight}
+              src={Coinlab}
               alt="logo"
             />
           </styled.Logo>
@@ -79,9 +77,6 @@ function Header() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <styled.GithubButton>
-                <styled.GithubSVG />
-              </styled.GithubButton>
             </a>
             <styled.SwitchButton
               $isDarkMode={isDarkMode}

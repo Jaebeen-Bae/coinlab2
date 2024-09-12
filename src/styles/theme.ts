@@ -23,7 +23,7 @@ export const lightTheme: DefaultTheme = {
   ...commonStyle,
   colors: {
     ...commonStyle.colors,
-    primary1: '#4361ee',
+    primary1: '#32c0df',
     primary2: '#7d92ff',
     bg_page: '#f9fafc',
     heading1: '#1d1e23',
@@ -51,7 +51,7 @@ export const darkTheme: DefaultTheme = {
   ...commonStyle,
   colors: {
     ...commonStyle.colors,
-    primary1: '#4062ff',
+    primary1: '#44a4e3',
     primary2: '#889cfd',
     bg_page: '#161822',
     heading1: '#fcfcff',

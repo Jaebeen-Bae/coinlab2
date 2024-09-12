@@ -38,14 +38,14 @@ module.exports = configOverrides((config, env) => {
     config.plugins.push(
       new CompressionWebpackPlugin({
         algorithm: 'gzip',
-        test: /\.(js|css|html|svg)$/,
+        test: /\.(js|css|html|svg|png)$/,
         threshold: 10240,
         minRatio: 0.8,
       }),
     );
     config.plugins.push(
       new BrotliPlugin({
-        test: /\.(js|css|html|svg)$/,
+        test: /\.(js|css|html|svg|png)$/,
         threshold: 10240,
         minRatio: 0.8,
       }),

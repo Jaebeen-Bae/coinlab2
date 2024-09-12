@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { ReactComponent as Sun } from 'assets/images/Sun.svg';
 import { ReactComponent as Moon } from 'assets/images/Moon.svg';
-import { ReactComponent as Github } from 'assets/images/Github.svg';
 
 interface RateProps {
   $isPositive: boolean;
@@ -18,12 +17,6 @@ export const MoonSVG = styled(Moon)`
   height: 1.15rem;
   fill: ${({ theme }) => theme.colors.icon};
 `;
-export const GithubSVG = styled(Github)`
-  width: 1.15rem;
-  height: 1.15rem;
-  fill: ${({ theme }) => theme.colors.icon};
-`;
-
 export const HeaderContainer = styled.header`
   position: sticky;
   top: 0;

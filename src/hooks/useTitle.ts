@@ -13,7 +13,7 @@ export const useTitle = () => {
       const { tradePrice, symbol, coinName, binancePrice } = selectedCoinInfo;
       const title = `${tradePrice.toLocaleString(
         'ko-KR',
-      )} ${symbol}/KRW | ${coinName}(${symbol}) 김프로(KimPro) 김프/시세 확인`;
+      )} ${symbol}/KRW | ${coinName}(${symbol}) 국가권력급 투자자의 모임, 코인랩`;
       if (binancePrice) {
         const kimpRatio = kimchiPremiumRatio(
           tradePrice,
@@ -27,7 +27,7 @@ export const useTitle = () => {
         return title;
       }
     } else {
-      return '김프로';
+      return '코인랩';
     }
   };
 

@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.js": "/static/js/main.d08b8683.js",
+    "static/js/762.340dbfe4.chunk.js": "/static/js/762.340dbfe4.chunk.js",
+    "static/js/453.85295be6.chunk.js": "/static/js/453.85295be6.chunk.js",
+    "static/js/403.4dc158ca.chunk.js": "/static/js/403.4dc158ca.chunk.js",
+    "static/media/Coinlab.png": "/static/media/Coinlab.5d74f590d766ee7b11a5.png",
+    "static/media/bithumb.svg": "/static/media/bithumb.ae42052b0a5078b2e9cc7a98e3db1788.svg",
+    "static/media/Sun.svg": "/static/media/Sun.67355dbd6247a7d5a219133baa9bf372.svg",
+    "static/media/btc.svg": "/static/media/btc.ff3109a84637a9f7b5b55c36ea79edb2.svg",
+    "static/media/upbit.svg": "/static/media/upbit.e87e65dcecbff02f024adaeff087b360.svg",
+    "static/media/Moon.svg": "/static/media/Moon.6489a21f8285454655df227c01bbc660.svg",
+    "static/media/search.svg": "/static/media/search.7497b32d716e5eb110cdb6a2ed163297.svg",
+    "static/media/usdt.svg": "/static/media/usdt.1ab449b81782797ef67650fba8e3ed59.svg",
+    "static/media/binance.svg": "/static/media/binance.1228492c6bdd19c1a66a8a45ead822f3.svg",
+    "static/media/arrow-left-right.svg": "/static/media/arrow-left-right.d3cbcb0382b832ece76d1ec74b8f02a0.svg",
+    "static/media/Check.svg": "/static/media/Check.90072779b4817a813e5d6838d4ecee01.svg",
+    "static/media/Chevron-Down.svg": "/static/media/Chevron-Down.92854021b80c7b47dd527081a4edf5a7.svg",
+    "static/media/Chevron-Right.svg": "/static/media/Chevron-Right.2c5d92a6b5f9a538ee34bbf60a076263.svg",
+    "index.html": "/index.html",
+    "static/media/Chevron-Left.svg": "/static/media/Chevron-Left.e672df685df534796a2adfba1bece825.svg",
+    "static/media/Caret-Down.svg": "/static/media/Caret-Down.c00a234886b8068798d831a0a5c9740d.svg",
+    "static/media/Caret-Up.svg": "/static/media/Caret-Up.25bd2d955f29594b7d4b00662a690a78.svg",
+    "static/media/sort-down.svg": "/static/media/sort-down.a56f3c026971e14cc010cd9566e30628.svg",
+    "static/media/sort-up.svg": "/static/media/sort-up.9b0e12842851a9dbb983aecf4885f571.svg"
+  },
+  "entrypoints": [
+    "static/js/main.d08b8683.js"
+  ]
+}
